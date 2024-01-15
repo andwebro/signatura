@@ -2,3 +2,4 @@
 /writable
 /tests
 /public/var
+.env
