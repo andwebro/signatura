@@ -12,7 +12,6 @@ class Contracts extends BaseAdminController
 
     public function __construct()
     {
-        
         $this->module_name  = 'contracts';
         $this->model = new ContractsModel();
         $this->config = config(\Modules\contracts\Config\ContractsConfig::class);
