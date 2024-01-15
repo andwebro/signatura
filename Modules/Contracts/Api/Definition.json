@@ -1,0 +1,100 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+      "title": "Contract API",
+      "description": "API for managing contracts",
+      "version": "1.0.0"
+    },
+    "paths": {
+      "/api/contracts/list": {
+        "get": {
+          "summary": "Retrieve Contracts",
+          "description": "Retrieve a list of contracts with optional filters.",
+          "parameters": [
+            {
+              "name": "limit",
+              "in": "query",
+              "description": "Number of contracts to retrieve (default is 10).",
+              "schema": {
+                "type": "integer",
+                "default": 10
+              }
+            },
+            {
+              "name": "status",
+              "in": "query",
+              "description": "Filter contracts by status (e.g., 'active', 'expired').",
+              "schema": {
+                "type": "string"
+              }
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": "Successful response",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "contractId": {
+                          "type": "string"
+                        },
+                        "contractName": {
+                          "type": "string"
+                        },
+                        "status": {
+                          "type": "string"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "/signContract": {
+        "post": {
+          "summary": "Sign a Contract",
+          "description": "Sign a contract with the specified information.",
+          "requestBody": {
+            "required": true,
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "contractId": {
+                      "type": "string"
+                    },
+                    "signerFirstName": {
+                      "type": "string"
+                    },
+                    "signerLastName": {
+                      "type": "string"
+                    },
+                    "signerEmail": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "responses": {
+            "201": {
+              "description": "Contract signed successfully"
+            },
+            "400": {
+              "description": "Bad request - Invalid input data"
+            }
+          }
+        }
+      }
+    }
+  }
+  
