@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:andwebro/andwebci.git",
-                "reference": "81b55ea876bbac24a8f45c14aefd992b11037c7c"
+                "reference": "3b18c8b735b23a333f9a4f6dd5123516d06cf0ea"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/andwebro/andwebci/zipball/81b55ea876bbac24a8f45c14aefd992b11037c7c",
-                "reference": "81b55ea876bbac24a8f45c14aefd992b11037c7c",
+                "url": "https://api.github.com/repos/andwebro/andwebci/zipball/3b18c8b735b23a333f9a4f6dd5123516d06cf0ea",
+                "reference": "3b18c8b735b23a333f9a4f6dd5123516d06cf0ea",
                 "shasum": ""
             },
             "default-branch": true,
@@ -29,23 +29,23 @@
             },
             "description": "Andweb Codeigniter 4 KIT",
             "support": {
-                "source": "https://github.com/andwebro/andwebci/tree/main",
+                "source": "https://github.com/andwebro/andwebci/tree/1.0.1",
                 "issues": "https://github.com/andwebro/andwebci/issues"
             },
-            "time": "2024-01-08T10:12:41+00:00"
+            "time": "2024-01-14T16:37:51+00:00"
         },
         {
             "name": "codeigniter4/framework",
-            "version": "v4.4.4",
+            "version": "v4.4.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeigniter4/framework.git",
-                "reference": "7c170c4e6bde1b879ee67a8a5457c06cfc3ad07a"
+                "reference": "f5844cb9790d87ff6043203953821740ba3aa592"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeigniter4/framework/zipball/7c170c4e6bde1b879ee67a8a5457c06cfc3ad07a",
-                "reference": "7c170c4e6bde1b879ee67a8a5457c06cfc3ad07a",
+                "url": "https://api.github.com/repos/codeigniter4/framework/zipball/f5844cb9790d87ff6043203953821740ba3aa592",
+                "reference": "f5844cb9790d87ff6043203953821740ba3aa592",
                 "shasum": ""
             },
             "require": {
@@ -57,9 +57,9 @@
                 "psr/log": "^1.1"
             },
             "require-dev": {
-                "codeigniter/coding-standard": "^1.5",
+                "codeigniter/coding-standard": "^1.7",
                 "fakerphp/faker": "^1.9",
-                "friendsofphp/php-cs-fixer": "~3.41.0",
+                "friendsofphp/php-cs-fixer": "^3.47.1",
                 "kint-php/kint": "^5.0.4",
                 "mikey179/vfsstream": "^1.6",
                 "nexusphp/cs-config": "^3.6",
@@ -107,29 +107,29 @@
                 "slack": "https://codeigniterchat.slack.com",
                 "source": "https://github.com/codeigniter4/CodeIgniter4"
             },
-            "time": "2023-12-28T10:37:53+00:00"
+            "time": "2024-01-27T03:57:48+00:00"
         },
         {
             "name": "codeigniter4/settings",
-            "version": "v2.1.2",
+            "version": "v2.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeigniter4/settings.git",
-                "reference": "854224baa190723f5f22d9dcc32cdb37aeaf79cd"
+                "reference": "2748f2b4572d44a940f98c31847d65272cac5666"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeigniter4/settings/zipball/854224baa190723f5f22d9dcc32cdb37aeaf79cd",
-                "reference": "854224baa190723f5f22d9dcc32cdb37aeaf79cd",
+                "url": "https://api.github.com/repos/codeigniter4/settings/zipball/2748f2b4572d44a940f98c31847d65272cac5666",
+                "reference": "2748f2b4572d44a940f98c31847d65272cac5666",
                 "shasum": ""
             },
             "require": {
                 "php": "^7.4 || ^8.0"
             },
             "require-dev": {
-                "codeigniter4/devkit": "^1.0",
+                "codeigniter4/devkit": "^1.1.2",
                 "codeigniter4/framework": "^4.2.3",
-                "rector/rector": "0.16.0"
+                "rector/rector": "0.18.13"
             },
             "type": "library",
             "autoload": {
@@ -160,22 +160,22 @@
             ],
             "support": {
                 "issues": "https://github.com/codeigniter4/settings/issues",
-                "source": "https://github.com/codeigniter4/settings/tree/v2.1.2"
+                "source": "https://github.com/codeigniter4/settings/tree/v2.2.0"
             },
-            "time": "2023-06-02T07:15:16+00:00"
+            "time": "2024-01-06T07:10:58+00:00"
         },
         {
             "name": "codeigniter4/shield",
-            "version": "v1.0.0",
+            "version": "v1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeigniter4/shield.git",
-                "reference": "7be6b60250158ade521a6f0fdb15ece02254d09a"
+                "reference": "d97aa5fba44971d1916bbbee79bef3804ab5e111"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeigniter4/shield/zipball/7be6b60250158ade521a6f0fdb15ece02254d09a",
-                "reference": "7be6b60250158ade521a6f0fdb15ece02254d09a",
+                "url": "https://api.github.com/repos/codeigniter4/shield/zipball/d97aa5fba44971d1916bbbee79bef3804ab5e111",
+                "reference": "d97aa5fba44971d1916bbbee79bef3804ab5e111",
                 "shasum": ""
             },
             "require": {
@@ -194,7 +194,7 @@
                 "mockery/mockery": "^1.0",
                 "phpstan/extension-installer": "^1.3",
                 "phpstan/phpstan-strict-rules": "^1.5",
-                "rector/rector": "0.18.13"
+                "rector/rector": "1.0.0"
             },
             "suggest": {
                 "ext-curl": "Required to use the password validation rule via PwnedValidator class.",
@@ -235,7 +235,7 @@
                 "slack": "https://codeigniterchat.slack.com",
                 "source": "https://github.com/codeigniter4/shield"
             },
-            "time": "2023-12-27T06:55:58+00:00"
+            "time": "2024-02-15T04:03:19+00:00"
         },
         {
             "name": "laminas/laminas-escaper",
@@ -1432,16 +1432,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "9.6.15",
+            "version": "9.6.16",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "05017b80304e0eb3f31d90194a563fd53a6021f1"
+                "reference": "3767b2c56ce02d01e3491046f33466a1ae60a37f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/05017b80304e0eb3f31d90194a563fd53a6021f1",
-                "reference": "05017b80304e0eb3f31d90194a563fd53a6021f1",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/3767b2c56ce02d01e3491046f33466a1ae60a37f",
+                "reference": "3767b2c56ce02d01e3491046f33466a1ae60a37f",
                 "shasum": ""
             },
             "require": {
@@ -1515,7 +1515,7 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/phpunit/issues",
                 "security": "https://github.com/sebastianbergmann/phpunit/security/policy",
-                "source": "https://github.com/sebastianbergmann/phpunit/tree/9.6.15"
+                "source": "https://github.com/sebastianbergmann/phpunit/tree/9.6.16"
             },
             "funding": [
                 {
@@ -1531,7 +1531,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-12-01T16:55:19+00:00"
+            "time": "2024-01-19T07:03:14+00:00"
         },
         {
             "name": "psr/container",

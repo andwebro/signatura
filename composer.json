@@ -35,7 +35,9 @@
         "optimize-autoloader": true,
         "preferred-install": "dist",
         "sort-packages": true,
-	"github-oauth":{"github.com":"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"}
+        "github-oauth": {
+
+        }
     },
     "scripts": {
         "test": "phpunit"
